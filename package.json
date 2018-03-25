@@ -1,0 +1,29 @@
+{
+  "name": "market-place",
+  "version": "1.0.0",
+  "description": "Работа выполняется в рамках обучения на курсе «FRONT-END разработчик».\r ================================================================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellenka-shark/market-place.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellenka-shark/market-place/issues"
+  },
+  "homepage": "https://github.com/ellenka-shark/market-place#readme",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp.spritesmith": "^6.9.0",
+    "merge-stream": "^1.0.1",
+    "run-sequence": "^2.2.1"
+  }
+}
