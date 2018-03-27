@@ -31,13 +31,16 @@
   </head>
 
   <body>
-    <!--HEADER START-->
+    <!--HEADER START НЕглавная страница-->
     <header id="header">
       <div class="container-logo">
         <div class="container d-flex">
           <div class="mr-auto"><img src="img/logo.png" id='logo' alt="FOXTAR MARKET PLACE"></div>      
           <div class="help"><span>Need help?</span>Talk to an expert: +61 3 8376 6284</div>
-          <div class="dropdown reverse"><span class="icon-header avatar-34"><i class="far fa-bell"></i><span class="quantity yellow">8</span></span>
+          <div class="dropdown reverse">
+            <div class="dropdown-body">
+              <span class="icon-header avatar-34"><i class="far fa-bell"></i><span class="quantity yellow">8</span></span>
+            </div>
             <div class="dropdown-hover container-dropdown">
               <ul>
                 <li class="d-flex padd">
@@ -70,7 +73,10 @@
             </div>
           </div>
 
-          <div class="dropdown reverse"><span class="icon-header avatar-34"><i class="far fa-envelope"></i><span class="quantity orange">5</span></span>
+          <div class="dropdown reverse">
+            <div class="dropdown-body">
+            <span class="icon-header avatar-34"><i class="far fa-envelope"></i><span class="quantity orange">5</span></span>
+            </div>
             <div class="dropdown-hover container-dropdown">
               <ul>
                 <li class="d-flex padd">
@@ -106,7 +112,10 @@
             </div>
           </div>
 
-          <div class="dropdown reverse"><span class="icon-header avatar-34"><i class="fas fa-shopping-cart"></i><span class="quantity green">8</span></span>
+          <div class="dropdown reverse">
+            <div class="dropdown-body">
+            <span class="icon-header avatar-34"><i class="fas fa-shopping-cart"></i><span class="quantity green">8</span></span>
+            </div>
             <div class="dropdown-hover">
               <ul>
                 <li class="d-flex padd">
@@ -141,12 +150,14 @@
           </div>
 
           <div class="dropdown reverse">
-            <div class="d-flex">
-              <div><img src="img/author-1.jpg" class="img-responsive avatar-34" alt="foto"></div>
-              <div class="author-dropdown">
-                <span>Mike Hussy</span>
-                <i class="fas fa-angle-down"></i>
+            <div class="dropdown-body">
+              <div class="d-flex">
+                <div><img src="img/author-1.jpg" class="img-responsive avatar-34" alt="foto"></div>
+                <div class="author-dropdown">
+                  <span>Mike Hussy</span>
+                  <i class="fas fa-angle-down"></i>
                 <div>$171.00</div>
+                </div>
               </div>
             </div>
             <div class="dropdown-hover">
@@ -186,12 +197,15 @@
         </div>
       </div>
     </header>
+    <!--HEADER end НЕглавная страница-->
 
   <main>
     <!-- section search start-->
-    <section class="search d-flex">
-      <div class="mx-auto">
+    <section class="search d-flex flex-column">
+      <div class="m-auto">
         <h2>Premium WordPress Themes, Web Templates and Many More ...</h2>
+      </div>
+        <div class="m-auto">
         <form>
           <input type="text" name="user_name" placeholder="Search Your Keywords . . ." class="form-control">
         </form>
@@ -199,5 +213,9 @@
     </section>
     <!-- section search end-->
    </main>
+<!-- JQuery -->
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+<!-- Init -->
+   <script src="js/init.js"></script>
   </body>
 </html>

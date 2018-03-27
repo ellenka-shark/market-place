@@ -1,17 +1,6 @@
-* {
-	box-sizing: border-box;
-}
+/*НЕглавная страница*/
 
-body {
-	margin: 0;
-}
-
-/*header start*/
-.padd {
-    padding: 1rem 1.5rem;
-    border-top: 1px solid #999;	
-}
-
+/*foto stile start*/
 .avatar-34 {
 	height: 34px;
 	width: 34px;
@@ -30,7 +19,41 @@ body {
 	width: 73px;
 	background: #d4d4d4;
 }
+/*foto stile end*/
 
+/*button stile start*/
+.btn-logout {
+	font-size: 12px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 11px 18px 9px 16px;
+    border: none;
+    text-decoration: none;
+    background: #e74c3c;
+    color: #fff;
+    margin-left: 14px;
+}
+
+.btn-default {
+	color: #f4f6f5;
+	font-size: 14px;
+    font-weight: 700;
+	text-decoration: none;
+}
+
+.btn-green {
+	background: #95c85a;
+	padding: 10px 23px 9px 18px;
+	margin-right: 6px;
+}
+
+.btn-red {
+	background: #e85647;
+	padding: 10px 13px 11px 12px;
+}
+/*button stile start*/
+
+/*header start*/
 .container-logo {
 	background: #fff;
 }
@@ -78,6 +101,7 @@ body {
 	border-radius: 50%;
 	color: #fff;
 	font-size: 11px;
+	padding-top: 3px;
 }
 
 .orange {
@@ -132,11 +156,19 @@ body {
 	flex-direction: column;
 	margin-left: 15px;
 }
+.content-dropdown span {
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
 
 .container-dropdown {
 	width: 268px;
 }
 
+.padd {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #999;	
+}
 .data-1 {
 	font-weight: 500;
 	font-size: 15px;
@@ -204,35 +236,6 @@ body {
 	margin-top: 10px;
 }
 
-.btn-logout {
-	font-size: 12px;
-    font-weight: 400;
-    border-radius: 3px;
-    padding: 11px 18px 9px 16px;
-    border: none;
-    text-decoration: none;
-    background: #e74c3c;
-    color: #fff;
-    margin-left: 14px;
-}
-
-.btn-default {
-	color: #f4f6f5;
-	font-size: 14px;
-    font-weight: 700;
-	text-decoration: none;
-}
-
-.btn-green {
-	background: #95c85a;
-	padding: 10px 23px 9px 18px;
-	margin-right: 6px;
-}
-
-.btn-red {
-	background: #e85647;
-	padding: 10px 13px 11px 12px;
-}
 
 .container-menu {
 	background: #263238;
@@ -254,7 +257,7 @@ body {
 	font-size: 14px;
     font-weight: 500;
     color: #fff;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 #menu a:hover {
@@ -280,7 +283,7 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	color: #fff;
-	line-height: 30px;
+	margin-bottom: 24px;
 }
 
 input {

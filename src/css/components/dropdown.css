@@ -1,6 +1,11 @@
 .dropdown {
     position: relative;
 }
+
+.dropdown-body {
+    cursor: pointer;
+}
+
 .dropdown-hover {
     display: none;
     position: absolute;
@@ -11,8 +16,9 @@
     left: auto;
     right: 0;
 }
-.dropdown:hover > .dropdown-hover {
+.dropdown.active > .dropdown-hover {
     display: block;
+    z-index: 10;
 }
 
 /* DEMO PURPOSES ONLY */
@@ -20,7 +26,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto'/* sans-serif*/;
+    font-family: sans-serif;
 }
 ul {
     margin: 0;
@@ -28,7 +34,7 @@ ul {
     list-style: none;
 }
 li + li {
-    margin-top: .5rem;
+   /* margin-top: .5rem;*/
 }
 code {
     display: inline-block;
