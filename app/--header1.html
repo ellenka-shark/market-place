@@ -7,10 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Foxtar | Market Place</title>
 
-    <!--  External fonts  -->
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-      
     <!-- normalize -->
     <link href="css/normalize.css" rel="stylesheet">
 
@@ -27,6 +23,7 @@
 
     <!-- COMPONENTS Fonts -->
     <link href="css/roboto.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
      
   </head>
 
@@ -36,32 +33,35 @@
       <div class="container-logo">
         <div class="container d-flex">
           <div class="mr-auto"><img src="img/logo.png" id='logo' alt="FOXTAR MARKET PLACE"></div>      
-          <div class="help"><span>Need help?</span>Talk to an expert: +61 3 8376 6284</div>
-                    
+          <div class="logo-text"><span>Need help? </span>Talk to an expert: +61 3 8376 6284</div>
+          
+          <!--  dropdown start -->
           <div class="dropdown reverse">
             <div class="dropdown-body">
-              <span class="icon-header avatar-34"><i class="fas fa-shopping-cart"></i><span class="quantity red">8</span>
-              </span>
+            <span class="icon-header avatar-34"><i class="fas fa-shopping-cart"></i><span class="quantity red">8</span></span>
             </div>
-              <div class="dropdown-hover">
+            <div class="dropdown-hover">
               <ul>
-                <li class="d-flex padd">
-                  <img src="" class="img-responsive avatar-73-57" alt="">
-                  <div class="d-flex content-dropdown">
-                    <span class="data-1">Grand&nbspBallet</span>
-                    <span class="data-2">WordPress</span>
-                    <span class="data-3">$59</span>
-                  </div>
+                <li class="padd">
+                  <a class="d-flex" href="">
+                    <img src="" class="img-responsive avatar-73-57" alt="">
+                    <span class="d-flex content-dropdown">
+                      <span class="content-dropdown-3-name">Grand&nbspBallet</span>
+                      <span class="content-dropdown-3-word-press">WordPress</span>
+                      <span class="content-dropdown-3-price">$59</span>
+                    </span>
+                  </a>
                 </li>
-                <li class="d-flex padd">
-                  <img src="" class="img-responsive avatar-73-57" alt="">
-                  <div class="d-flex content-dropdown">
-                    <span class="data-1">Apple&nbspDevice</span>
-                    <span class="data-2">WordPress</span>
-                    <span class="data-3">$59</span>
-                  </div>
+                <li class="padd">
+                  <a class="d-flex" href="">
+                    <img src="" class="img-responsive avatar-73-57" alt="">
+                    <span class="d-flex content-dropdown">
+                      <span class="content-dropdown-3-name">Apple&nbspDevice</span>
+                      <span class="content-dropdown-3-word-press">WordPress</span>
+                      <span class="content-dropdown-3-price">$59</span>
+                    </span>
+                  </a>
                 </li>
-
                 <li class="padd">
                   <div class="d-flex total">
                     <span>Total</span>
@@ -75,7 +75,7 @@
               </ul>
             </div>
           </div>
-
+          <!-- dropdown end -->
           <div><a href="" class="btn btn-logout">Logout</a></div>
           <div><a href="" class="btn btn-logout">Logout</a></div>
         </div>
@@ -101,25 +101,30 @@
         </div>
       </div>
     </header>
- <!--HEADER end главная страница-->   
+ <!--HEADER end главная страница--> 
 
-  <main>
+ <main>
     <!-- section search start-->
     <section class="search d-flex flex-column">
-      <div class="m-auto">
-        <h1>Welcome To Foxtar Market Place!</h1></div>
-        <div class="m-auto"><h2>Premium WordPress Themes, Web Templates and Many More ...</h2></div>
-        <div class="m-auto">
+      <div class="mx-auto">
+        <h1>Welcome To Foxtar Market Place!</h1>
+      </div>
+      <div class="mx-auto">
+        <h2>Premium WordPress Themes, Web Templates and Many More ...</h2>
+      </div>
+        <div class="mx-auto">
         <form>
           <input type="text" name="user_name" placeholder="Search Your Keywords . . ." class="form-control">
+          <button type="submit"><img src="img/loupe.png" alt="foto"></button>
         </form>
       </div>
     </section>
     <!-- section search end-->
    </main>
-   <!-- JQuery -->
+    <!-- JQuery -->
    <script src="js/jquery-3.3.1.slim.min.js"></script>
-  <!-- Init -->
+    <!-- Init -->
    <script src="js/init.js"></script>
   </body>
 </html>
+      
