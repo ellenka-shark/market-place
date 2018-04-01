@@ -1,0 +1,396 @@
+/* Default Button style - START */
+.btn-red {
+    background-color: #e74c3c;
+    color: #fff;
+}
+.btn-green {
+    background-color: #8bc34a;
+    color: #fff;
+}
+.btn-white {
+    background-color: #fff;
+    color: #263238;
+}
+.btn-blue {
+    background-color: #42a5f5;
+    color: #fff;
+}
+.btn-gray {
+    background-color: #546e7a;
+    color: #fff;
+}
+.btn-light {
+    background-color: #fff;
+    color: #707070;
+}
+.btn-none {
+    background-color: none;
+    color: #fff;
+}
+.btn-red:hover {
+    background-color: #c71a08;
+    color: #fff;
+}
+.btn-green:hover {
+    background-color: #63b00a;
+    color: #fff;
+}
+.btn-blue:hover {
+    background-color: #067ede;
+    color: #fff;
+}
+.btn-gray:hover {
+    background-color: #39515c;
+    color: #fff;
+}
+.btn-light:hover {
+    background-color: #707070;
+    color: #fff;
+}
+.btn-none:hover {
+    background-color: #fff;
+    color: #8bc34a;
+}
+.btn-default {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    -webkit-transition: background-color .3s, color .3s;
+    transition: background-color .3s, color .3s;
+}
+.btn-default:active,
+.btn-default:visited,
+.btn-default:link,
+.btn-default:hover {
+    text-decoration: none;
+}
+/* Default Button style - END */
+
+/* PAGE: 03_main_home; */
+/* Custom Button Style - START */
+/* Login + Register - START */
+.btn-login, .btn-register {    
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .1em;
+    min-width: 72px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 24px;
+    color: #fff;
+}
+/* Login + Register - END */
+
+/* btn-items - START */
+.btn-items {
+    border-radius: 0px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 60px;
+    padding: 0px 22px;
+    -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+}
+.btn-items:hover {
+    color: #263238;
+    background-color: #e0e3ea;
+}
+/* btn-items - END */
+
+/* Become A Author - START */
+.btn-become-author {
+    border-radius: 0px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: .1em;
+    line-height: 36px;
+    padding: 14px 20px;
+    color: #263238;
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+}
+.btn-become-author:hover {
+    color: #263238;
+    background-color: #e0e3ea;
+}
+/* Become A Author - END */
+
+/* E-mail-adress - START */
+.btn-e-mail-adress {
+    border-radius: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: .1em;
+    line-height: 36px;
+    padding: 1px 10px;
+    cursor: pointer;
+}
+.btn-e-mail-adress:focus {
+    outline:none;
+}
+/* E-mail-adress - END */
+
+/* PAGE: 04_all new items;
+         05_all new items */
+
+/* Logout - START */
+.btn-logout {    
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .1em;
+    line-height: 24px;
+    padding: 4px 13.5px;
+}
+/* Logout - END */
+/* Search + View All - START */
+.btn-search, .btn-view-all {  
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: .01em;
+    line-height: 40px;
+    border-radius: 0px;
+}
+.btn-search i {
+    font-size: 15px;
+    margin-right: 11px;
+}
+.btn-search {
+    padding: 3px 65.2px;
+    cursor: pointer;
+}
+.btn-view-all {    
+    padding: 3px 69.5px;
+}
+/* Search + View All - END */
+
+/* PAGE: 08_category brows; */
+/* Go to Cart - START */
+.btn-go-to-cart, .btn-go-to-checkout {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    /*letter-spacing: .1em;*/
+    border-radius: 0px;
+    color: #f4f6f5;
+}
+.btn-go-to-cart {    
+   /* padding: 10.5px 13.6px;*/
+    padding: 10px 23px 9px 18px;
+}
+/* Go to Cart - END */
+/* Go to Checkout - START */
+.btn-go-to-checkout {
+   /* padding: 10.5px 3.3px;*/
+    padding: 10px 14px 11px 12px;
+}
+/* Go to Checkout - END */
+
+/* PAGE: 09_product details */
+/* Add To Cart
+   Add To Favorites
+   By Now - START */
+.btn-add-to-cart,
+.btn-buy-now,
+.btn-add-to-favorites {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 30px;
+    border-radius: 0px;
+    min-width: 208px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+}
+.btn-add-to-favorites {
+    font-weight: 500;
+}
+.btn-add-to-cart i,
+.btn-add-to-favorites i {
+    font-size: 16px;
+    margin-right: 8px;
+}
+/* Add To Cart
+   Add To Favorites
+   By Now - END */
+/* View Profile - START */
+.btn-view-profile {    
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: .1em;
+    border: 1px solid #d5d5d5;
+    border-radius: 0px;
+    padding: 7.5px 3.5px;
+}
+/* View Profile - END */
+
+/* Live Preview
+    Screenshots
+     Documentation - START */
+.btn-live-preview,
+.btn-screenshots,
+.btn-documentation {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .1em;
+    border-radius: 0px;
+    min-width: 158px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+/* Live Preview
+    Screenshots
+     Documentation - END */
+/* PAGE: 09_product details */
+/* Send Message + Following - START */
+.btn-message,
+.btn-following {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 30px;
+    border-radius: 0px;
+    min-width: 269px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+}
+.btn-message i {
+    margin-right: 12px;
+}
+/* Send Message + Following - END */
+
+/* PAGE: 16_setting_personal info */
+/* PAGE: 21_upload products; */
+/* UPDATE - START */
+.btn-update,
+.btn-submit {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: .1em;
+    line-height: 24px;
+    border-radius: 0px;
+    padding: 10px 25.6px;
+    cursor: pointer;
+}
+.btn-submit:focus,
+.btn-update:focus,
+.btn-find:focus {
+    outline:none;
+}
+/* UPDATE - END */
+/* UPDATE - START */
+.btn-sabmit {
+    padding: 11px 32.6px;
+}
+/* UPDATE - END */
+/* PAGE: 22_sales statement */
+/* Find - START */
+.btn-find {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .1em;
+    line-height: 24px;
+    border-radius: 0px;
+    padding: 2.5px 16.2px;
+    cursor: pointer;
+}
+/* Find - END */
+
+/* PAGE: 28_contact */
+/* Send Message - START */
+.btn-send-message {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 15px 32.4px;
+}
+/* Send Message - END */
+
+/* PAGE: 29_404 */
+/* Go To Home Page - START */
+.btn-home-page {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .1em;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 14.5px 31px;
+}
+/* GO to Home Page - END */
+
+/* PAGE: 30_login */
+/* Submit + Creat An Account? + X - START */
+.btn-login-submit {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .1em;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    color: #000;
+    padding: 8px 33.5px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 2px rgba(83,149,31,0.5);
+    box-shadow: 2px 2px 2px rgba(83,149,31,0.5);    
+}
+.btn-login-submit:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-create-account {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: .1em;
+    line-height: 30px;
+    border-radius: 0px;
+    padding: 10px 17px;
+    background-color: #76ae36;
+}
+.btn-create-account:hover {
+    background-color: #fff;
+    color: #76ae36;;
+}
+.btn-create-account i {
+    margin-right: 12px;
+}
+.btn-x {
+    font-size: 18px;
+    line-height: 36px;
+    width:36px;
+    height:36px;
+    border-radius: 50%;
+}
+.btn-x:hover {
+    background-color: #fff;    
+    color: #76ae36;
+}
+/* Submit + Creat An Account? + X - END */
+
+/* GO to Home Page - END */
+
+/* Custom Button Style - END */

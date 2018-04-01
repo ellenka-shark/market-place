@@ -46,6 +46,10 @@ html {
 }
 
 @media (min-width: 1200px) {
+  header .container,
+  footer .container {
+    max-width: 1170px;
+  }
   .container {
     max-width: 1140px;
   }
@@ -2062,4 +2066,16 @@ html {
 }
 .m-auto {
   margin: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }

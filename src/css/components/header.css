@@ -6,6 +6,11 @@
 	transition: .3s;
 } 
 
+.icon-header i:hover,
+.author-dropdown i:hover {
+	color: #0d0c0c;
+}
+
 /*foto stile start*/
 .avatar-34 {
 	height: 34px;
@@ -27,37 +32,13 @@
 }
 /*foto stile end*/
 
-/*button stile start*/
-.btn-logout {
-	font-size: 12px;
-    font-weight: 400;
-    border-radius: 3px;
-    padding: 11px 18px 9px 16px;
-    border: none;
-    text-decoration: none;
-    background: #e74c3c;
-    color: #fff;
-    margin-left: 14px;
+#header .btn-logout {
+	margin-left: 21px;
 }
 
-.btn-default {
-	color: #f4f6f5;
-	font-size: 14px;
-    font-weight: 700;
-	text-decoration: none;
+#header .btn-go-to-cart {
+	margin-right: 6px;	
 }
-
-.btn-green {
-	background: #95c85a;
-	padding: 10px 23px 9px 18px;
-	margin-right: 6px;
-}
-
-.btn-red {
-	background: #e85647;
-	padding: 10px 13px 11px 12px;
-}
-/*button stile end*/
 
 /*header start*/
 .container-logo {
@@ -175,6 +156,11 @@
     padding: 1rem 1.5rem;
     border-top: 1px solid #999;	
 }
+
+.padd-16px {
+	 padding: 1rem 1rem;
+}
+
 .content-dropdown-3-name {
 	font-weight: 500;
 	font-size: 15px;
@@ -247,7 +233,6 @@
 #menu {
 	padding-top: 23px;
 	padding-bottom: 23px;
-	
 }
 
 #menu li a {
@@ -284,7 +269,7 @@ input {
     font-weight: 500;
     border-radius: 4px;
     color: #90a4ae;
-    letter-spacing: .5em;
+    letter-spacing: .05em;
 	line-height: 30px;
 	padding-left: 25px;
 	position: relative;
@@ -298,9 +283,15 @@ input:focus {
 button {
 	position: absolute;
 	margin-top: -37px;
-	margin-left: 620px;
-	background: white;
+	margin-left: 630px;
+	background: inherit;
+	font-size: 14px;
 	border-width: 0;
+	color: #90a4ae;
 }
 
+.search i:hover,
+.search i:active {
+	color: #000;
+}
 /*search end*/

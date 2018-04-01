@@ -1,3 +1,144 @@
-.container-footer {
-	background: green;
+.footer-menu {
+	padding-top: 116px;
+	padding-bottom: 98px;
+}
+
+.bg-footer{
+	background: #263238;
+}
+
+.footer-about{
+	padding-left: 0;
+}
+
+.footer-social {
+	padding-right: 0;
+	padding-left: 26px;
+}
+
+.footer-join {
+	padding-left: 56px;
+}
+
+.footer-help {
+	padding-left: 100px;
+}
+
+.footer-about i,
+.footer-join i,
+.footer-help i {
+	margin-right: 15px;
+	color: #8bc34a;
+	font-size: 18px;
+}
+
+.footer-about a:hover,
+.footer-join a:hover,
+.footer-help a:hover {
+	text-decoration: underline;
+}
+
+.footer-about a {
+	font-family: 'Lato';
+	font-size: 14px;
+}
+
+.footer-about p,
+.footer-join a,
+.footer-help a {
+	color: #b7c3c8; 
+	font-size: 15px;
+
+}
+
+.footer-join li + li,
+.footer-help li + li {
+	margin-top: 22px;
+}
+
+.footer-title {
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Raleway';
+	position: relative;
+	padding-bottom: 23px;
+	margin-bottom: 32px;
+}
+
+.footer-title::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 51px;
+	background: #729e4c;
+} 
+
+.footer-about  p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 33px;
+	margin-right: 9px;
+}
+
+.footer-about a {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 24px;
+}
+
+.footer-about .contact-phone i {
+	-webkit-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+
+.footer-about .contact-adress span {
+	padding-left: 30px;
+}
+
+.footer-social .footer-icon {
+	margin-top: 35px;
+	margin-bottom: 41px;
+}
+
+.footer-social .footer-icon .icon + .icon {
+	margin-left: 7px;
+}
+
+.footer-social p {
+	font-size: 20px; 
+	font-weight: 400;
+	color: #fff;
+} 
+
+.footer-social form {
+	margin-top: 18px;
+}
+
+.footer-social input {
+	width: 261px;
+	height: 39px;
+	position: relative;
+	font-weight: 400;
+	font-size: 14px;
+	padding-left: 16px;
+}
+
+.footer-social button {
+	position: absolute;
+	top: 189px;
+	right: 0;
+}
+
+.copiright {
+	font-weight: 400;
+	font-size: 15px;
+	color: #919699;
+	border-top: 1px solid #424d53;
+	padding-bottom: 32px;
+	padding-top: 27px;
 }
