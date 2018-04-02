@@ -61,8 +61,14 @@
 	margin-right: 10px;
 }
 
-.container-logo .logo-text  span {
+.container-logo .logo-text .need {
 	color: #e74c3c;
+}
+
+.container-logo .logo-text a:hover {
+	color: #e74c3c;
+	-webkit-transition: .3s;
+	transition: .3s
 }
 
 .icon-header {
@@ -195,17 +201,20 @@
 	margin-bottom: 24px;
 }
 
+form {
+	position: relative;
+}
+
 input {
-	height: 56px;
 	width: 670px;
     font-size: 14px;
     font-weight: 500;
     border-radius: 4px;
     color: #90a4ae;
-    letter-spacing: .5em;
-	line-height: 30px;
-	padding-left: 25px;
-	position: relative;
+    letter-spacing: .05em;
+	line-height: 56px;
+	padding: 0 0 0 25px;
+	border: none;
 }
 
 input:focus {
@@ -216,9 +225,18 @@ input:focus {
 
 button {
 	position: absolute;
-	margin-top: -37px;
-	margin-left: 620px;
-	background: white;
+	top: 0;
+	right: 0;
+	height: 56px;
+	font-size: 14px;
 	border-width: 0;
+	color: #90a4ae;
+	background: inherit;
 }
+
+.search button:hover,
+.search button:active {
+	color: #000;
+}
+
 /*search end*/

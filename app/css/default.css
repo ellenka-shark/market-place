@@ -1,0 +1,26 @@
+/* auto margin */
+.ml-auto {
+  margin-left: auto; 
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mx-auto {
+  margin-left: auto; 
+  margin-right: auto;
+}
+.m-auto {
+  margin: auto;
+}
+/*text*/
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}

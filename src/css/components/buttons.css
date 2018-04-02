@@ -53,7 +53,7 @@
 }
 .btn-default {
     display: inline-block;
-    text-align: center;
+    /*text-align: center;*/
     border: none;
     border-radius: 3px;
     -webkit-transition: background-color .3s, color .3s;
@@ -70,16 +70,23 @@
 /* PAGE: 03_main_home; */
 /* Custom Button Style - START */
 /* Login + Register - START */
-.btn-login, .btn-register {    
+.btn-login {    
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
-    letter-spacing: .1em;
-    min-width: 72px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    line-height: 24px;
+    line-height: 32px;
     color: #fff;
+    padding-left: 21px;
+    padding-right: 21px;
+
+}
+.btn-register {
+    line-height: 32px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 /* Login + Register - END */
 
@@ -143,9 +150,9 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
-    letter-spacing: .1em;
-    line-height: 24px;
-    padding: 4px 13.5px;
+    line-height: 32px;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 /* Logout - END */
 /* Search + View All - START */
@@ -176,19 +183,20 @@
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
-    /*letter-spacing: .1em;*/
+    line-height: 35px;
     border-radius: 0px;
     color: #f4f6f5;
 }
-.btn-go-to-cart {    
-   /* padding: 10.5px 13.6px;*/
-    padding: 10px 23px 9px 18px;
+.btn-go-to-cart {  
+    padding-left: 20px;
+    padding-right: 20px;
 }
 /* Go to Cart - END */
+
 /* Go to Checkout - START */
 .btn-go-to-checkout {
-   /* padding: 10.5px 3.3px;*/
-    padding: 10px 14px 11px 12px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 /* Go to Checkout - END */
 
