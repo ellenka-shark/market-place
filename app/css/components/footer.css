@@ -39,7 +39,6 @@
 }
 
 .footer-about a {
-	font-family: 'Lato';
 	font-size: 14px;
 }
 
@@ -59,7 +58,6 @@
 .footer-title {
 	color: #fff;
 	font-size: 22px;
-	font-family: 'Raleway';
 	position: relative;
 	padding-bottom: 23px;
 	margin-bottom: 32px;
@@ -117,12 +115,12 @@
 
 .footer-social form {
 	margin-top: 18px;
+	position: relative;
 }
 
 .footer-social input {
 	width: 261px;
 	height: 39px;
-	position: relative;
 	font-weight: 400;
 	font-size: 14px;
 	padding-left: 16px;
@@ -130,8 +128,10 @@
 
 .footer-social button {
 	position: absolute;
-	top: 189px;
+	top:0;
 	right: 0;
+	bottom: 0;
+	height: 39px;
 }
 
 .copiright {

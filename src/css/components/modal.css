@@ -55,6 +55,7 @@ p span:hover {
 
 .modal-container .modal-form.modal.active form {
     transform: scale(1);
+    box-shadow: 0 0 5em 0 #000;
 }
 
 .modal-container .close {
@@ -66,10 +67,11 @@ p span:hover {
     height: 3rem;
     line-height: 3rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.1rem;
     cursor: pointer;
     z-index: 1;
     transition: all .3s;
+    color: #fff;
 }
 
 .modal-container .close:hover {
@@ -78,15 +80,50 @@ p span:hover {
 }
 
 
+.modal-container h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+}
 
+.position-relative {
+    position: relative;
+ } 
 
+.modal-container input {
+    display: block;
+    width: 400px;
+    background: #76ae36;
+    font-size: 14px; 
+    font-weight: 400;
+    line-height: 43px;
+    padding: 0 0 0 41px;
+    border: none;
+}
 
+.modal-container ::-webkit-input-placeholder{
+    color: #fff;
+}
 
+.position-relative + .position-relative {
+    margin-top: 8px;
+    margin-bottom: 19px;
+}
 
+.position-relative i {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    bottom: 16px;
+    height: 43px;
+    color: #fff;
+}
 
-
-
-
-
-
-
+.modal-container .modal-form-span {
+    margin-top: 25px;
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}

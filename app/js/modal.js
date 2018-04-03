@@ -2,7 +2,7 @@
     
 function initModals() {
   $('.modal-container form')
-    .prepend('<span class="close">&times;</span>');
+    .prepend('<span class="close"><i class="fas fa-times"></i></span>');
 
   $('.modal-login-open').click(function () {
     modalOpen('#modal-form-login');

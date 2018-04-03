@@ -24,19 +24,6 @@
 /*foto stile end*/
 
 
-.btn-login {
-	margin-left: 16px;
-	margin-right: 7px;
-}
-
-#header .btn-logout {
-	margin-left: 21px;
-}
-
-#header .btn-go-to-cart {
-	margin-right: 6px;	
-}
-
 /*header start*/
 .container-logo {
 	background: #fff;
@@ -97,19 +84,6 @@
 	background: red;
 }
 
-.content-dropdown {
-	flex-direction: column;
-	margin-left: 15px;
-}
-.content-dropdown span {
-	margin-bottom: 4px;
-	margin-top: 4px;
-}
-
-.container-dropdown {
-	width: 268px;
-}
-
 .padd {
     padding: 1rem 1.5rem;
     border-top: 1px solid #999;	
@@ -117,6 +91,20 @@
 
 .padd-16px {
 	 padding: 1rem 1rem;
+}
+
+.container-dropdown {
+	width: 268px;
+}
+
+.content-dropdown {
+	flex-direction: column;
+	margin-left: 15px;
+	
+}
+.content-dropdown span {
+	margin-bottom: 4px;
+	margin-top: 4px;
 }
 
 .content-dropdown-3-name {
@@ -146,6 +134,15 @@
 	color: #263238;
 }
 
+#header .btn-login {
+	margin-right: 7px;
+	margin-left: 26px;
+}
+
+#header .btn-go-to-cart {
+	margin-right: 6px;	
+}
+
 .container-menu {
 	background: #263238;
 }
@@ -164,11 +161,6 @@
 	font-size: 14px;
     font-weight: 500;
     color: #fff;
-}
-
-#menu a {
-	padding: 0;
-	margin: 0;
 }
 /*header end*/
 
@@ -195,11 +187,11 @@
 	margin-bottom: 24px;
 }
 
-form {
+.search form {
 	position: relative;
 }
 
-input {
+.search input {
 	width: 670px;
     font-size: 14px;
     font-weight: 500;
@@ -211,15 +203,16 @@ input {
 	border: none;
 }
 
-input:focus {
+.search input:focus {
     box-shadow: none;
     border-color: rgba(0, 0, 0, .5);
 }
 
-button {
+.search button {
 	position: absolute;
 	top: 0;
 	right: 0;
+	bottom: 0;
 	height: 56px;
 	font-size: 14px;
 	border-width: 0;
@@ -231,5 +224,4 @@ button {
 .search button:active {
 	color: #000;
 }
-
 /*search end*/

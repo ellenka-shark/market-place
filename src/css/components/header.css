@@ -1,7 +1,7 @@
 /*НЕглавная страница*/
 
 #menu a:hover,
-.dropdown .mike a:hover {
+.dropdown .dropdown-mike a:hover {
 	text-decoration: underline;
 	transition: .3s;
 } 
@@ -32,15 +32,6 @@
 }
 /*foto stile end*/
 /*header start*/
-
-#header .btn-logout {
-	margin-left: 21px;
-}
-
-#header .btn-go-to-cart {
-	margin-right: 6px;	
-}
-
 .container-logo {
 	background: #fff;
 }
@@ -131,29 +122,16 @@
 	line-height: 24px;
 }
  
-.mike li {
+.dropdown-mike li {
     font-weight: 400;
     font-size: 12px;
     line-height: 36px;
     color: #546e7a;
 }
 
-.mike i {
+.dropdown-mike i {
 	color: #8bc34a;
 	margin-right: 9px;
-}
-
-.content-dropdown {
-	flex-direction: column;
-	margin-left: 15px;
-}
-.content-dropdown span {
-	margin-bottom: 4px;
-	margin-top: 4px;
-}
-
-.container-dropdown {
-	width: 268px;
 }
 
 .padd {
@@ -163,6 +141,44 @@
 
 .padd-16px {
 	 padding: 1rem 1rem;
+}
+
+.container-dropdown {
+	width: 268px;
+}
+
+.content-dropdown {
+	flex-direction: column;
+	margin-left: 15px;
+	
+}
+.content-dropdown span {
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+.content-dropdown-1-need {
+	font-weight: 400;
+	font-size: 12px;
+	color: #84b743;
+}
+
+.content-dropdown-1-2-data {
+	font-weight: 400;
+	font-size: 10px;
+	color: #707070;
+}
+
+.content-dropdown-2-name {
+	font-weight: 700;
+	font-size: 12px;
+	color: #263238;
+}
+
+.content-dropdown-2-need {
+	font-weight: 400;
+	font-size: 11px;
+	color: #84b743;
 }
 
 .content-dropdown-3-name {
@@ -183,30 +199,6 @@
 	color: #000;
 }
 
-.content-dropdown-2-name {
-	font-weight: 700;
-	font-size: 12px;
-	color: #263238;
-}
-
-.content-dropdown-2-need {
-	font-weight: 400;
-	font-size: 11px;
-	color: #84b743;
-}
-
-.content-dropdown-2-data {
-	font-weight: 400;
-	font-size: 10px;
-	color: #707070;
-}
-
-.content-dropdown-1-need {
-	font-weight: 400;
-	font-size: 12px;
-	color: #84b743;
-}
-
 .total {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -221,8 +213,16 @@
 	margin-top: 10px;
 }
 
-.envelope-bell:hover {
+.container-dropdown a:hover .envelope-bell {
 	color: #ef6c00;
+}
+
+#header .btn-logout {
+	margin-left: 21px;
+}
+
+#header .btn-go-to-cart {
+	margin-right: 6px;	
 }
 
 .container-menu {
@@ -245,10 +245,6 @@
     color: #fff;
 }
 
-#menu a {
-	padding: 0;
-	margin: 0;
-}
 /*header end*/
 
 /*section search start*/
@@ -266,11 +262,11 @@
 	margin-bottom: 24px;
 }
 
-form {
+.search form {
 	position: relative;
 }
 
-input {
+.search input {
 	width: 670px;
     font-size: 14px;
     font-weight: 500;
@@ -282,12 +278,12 @@ input {
 	border: none;
 }
 
-input:focus {
+.search input:focus {
     box-shadow: none;
     border-color: rgba(0, 0, 0, .5);
 }
 
-button {
+.search button {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -303,5 +299,4 @@ button {
 .search button:active {
 	color: #000;
 }
-
 /*search end*/

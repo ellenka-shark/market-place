@@ -16,8 +16,15 @@
     <!-- default -->
     <link href="css/default.css" rel="stylesheet">
 
+    <!-- COMPONENTS button -->
+    <link href="css/components/buttons.css" rel="stylesheet">
+
     <!--  COMPONENT Footer  -->
     <link href="css/components/modal.css" rel="stylesheet">
+    
+    <!-- COMPONENTS Fonts -->
+    <link href="css/roboto.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
 
 </head>
 
@@ -29,17 +36,28 @@
         <p><span class="modal-login-open">Open Modal Form</span></p>
         
         <div class="modal-container text-center">
-
-            <div id="modal-form-login" class="modal-form">
-
+           <div id="modal-form-login" class="modal-form">
                 <form>
                     <h1>Login</h1>
-                    <input type="text" placeholder="Enter data here">
-                    <button type="submit">Send</button>
+                    <div class="position-relative">
+                        <input type="text" placeholder="Name">
+                        <i class="fas fa-user"></i> 
+                    </div>
+                    
+                    <div class="position-relative">
+                        <input type="text" placeholder="Password">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn-white btn-login-submit btn-default" title="Отправить данные">Submit</button>
+                    <a href="#" class="btn-green btn-create-account btn-default" title="Перейти на домашнюю страницу">
+                    <i class="far fa-edit"></i>Creat An Account?</a>
+                    </div>
+                    <span class="text-left modal-form-span">Lost Password?</span>
+
                 </form>
-            </div>
+           </div>
         </div>
-    
     </div>
     
     <!-- JQuery -->
