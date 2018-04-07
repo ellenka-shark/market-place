@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foxtar | Market Place</title>
+    
+    <!-- grid -->
+    <link href="css/grid.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="css/roboto.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+
+    <!-- normalize -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+     <!-- default -->
+    <link href="css/default.css" rel="stylesheet">
+
+    <!-- COMPONENTS --> 
+
+    <!--  COMPONENTS dropdown  -->
+    <link href="css/components/dropdown.css" rel="stylesheet">
+
+    <!-- COMPONENTS button -->
+    <link href="css/components/buttons.css" rel="stylesheet">
+
+    <link href="css/components/slicknav.css" rel="stylesheet">
+
+    <!-- COMPONENTS page 30 -->
+    <link href="css/components/page30.css" rel="stylesheet">
+
+    <!-- COMPONENTS modal -->
+    <link href="css/components/modal.css" rel="stylesheet">
+     
+  </head>
+
+  <body>
+    <!--HEADER START 30 страница-->
+    <header id="header">
+      <div class="container-logo">
+        <div class="container">
+          <div class="row justify-content-sm-between">
+            <div class="logo-page30"><img src="img/logo.png" id='logo' alt="FOXTAR MARKET PLACE"></div> 
+            <!--MENU-->
+            <div class="menu menu-page30">
+              <nav id="menu">
+
+                <ul class="d-flex">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Pages</a></li>
+                  <li><a href="">WordPress</a></li>
+                  <li><a href="">Joomla</a></li>
+                  <li><a href="">PSD</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Help</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div>
+                <a href="#" class="btn-green btn-login btn-default modal-login-open" title="Вход">Login</a>
+            </div>
+             <!--  dropdown start -->
+              <div class="dropdown reverse">
+                <div class="dropdown-body">
+                  <span class="icon-header avatar-34"><i class="fas fa-shopping-cart"></i><span class="quantity green">8</span></span>
+                </div>
+                <div class="dropdown-hover container-dropdown">
+                  <ul>
+                    <li class="padd">
+                      <a class="d-flex" href="">
+                        <img src="" class="img-responsive avatar-73-57" alt="">
+                        <span class="d-flex content-dropdown">
+                          <span class="content-dropdown-3-name">Grand&nbspBallet</span>
+                          <span class="content-dropdown-3-word-press">WordPress</span>
+                          <span class="content-dropdown-3-price">$59</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="padd">
+                      <a class="d-flex" href="">
+                        <img src="" class="img-responsive avatar-73-57" alt="">
+                        <span class="d-flex content-dropdown">
+                          <span class="content-dropdown-3-name">Apple&nbspDevice</span>
+                          <span class="content-dropdown-3-word-press">WordPress</span>
+                          <span class="content-dropdown-3-price">$59</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="padd padd-16px">
+                      <div class="d-flex total">
+                        <span>Total</span>
+                        <span class="ml-auto ">$118</span>
+                      </div>
+                      <div class="d-flex">
+                        <a href="#" class="btn-green btn-go-to-cart btn-default" title="Перейти в корзину">Go&nbspto&nbspCart</a>
+                        <a href="#" class="btn-red btn-go-to-checkout btn-default" title="Перейти к оформлению заказа">Go&nbspto&nbspCheckout</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- dropdown end -->
+              <div class="modal-container text-center">
+               <div id="modal-form-login" class="modal-form">
+                <form>
+                    <h1>Login</h1>
+                    <div class="position-relative">
+                        <input type="text" placeholder="Name">
+                        <i class="fas fa-user"></i> 
+                    </div>
+                    
+                    <div class="position-relative">
+                        <input type="text" placeholder="Password">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn-white btn-login-submit btn-default" title="Отправить данные">Submit</button>
+                    <a href="#" class="btn-green btn-create-account btn-default">
+                    <i class="far fa-edit"></i>Creat An Account?</a>
+                    </div>
+                    <span class="text-left modal-form-span"><a href="#">Lost Password?</a></span>
+
+                </form>
+           </div>
+        </div>
+                                    
+            </div>
+          </div>
+       </div>
+      
+    </header>
+    <!--HEADER end page 30 -->
+    <main>
+    <!-- section search page 30 start-->
+      <section class="search-page-30 d-flex flex-column">
+        <div class="mx-auto">
+          <h1 class="search-h1-page-30">Creat A <span>Digital Market</span> Place</h1>
+        </div>
+        <div class="mx-auto">
+       <h2 class="search-h2-page-30">Foxtar is a simple and powerful Digital Downloads Products</h2>
+        </div>
+        <div class="mx-auto">
+          <form>
+            <input type="text" name="user_name" placeholder="Search Your Keywords . . ." class="form-control">
+            <button type="submit" class="btn-e-mail-adress"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </section>
+      <!-- section search page 30 end-->
+    </main>
+    <!-- JQuery -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Init -->
+    <script src="js/init.js"></script>
+
+     <!--  Modal  -->
+    <script src="js/modal.js"></script>
+  </body>
+</html>

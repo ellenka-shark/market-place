@@ -28,7 +28,6 @@
 }
 
 .container-logo div {
-	-ms-flex-item-align: center;
 	align-self: center;
 }
 
@@ -63,7 +62,6 @@
 
 .menu-page30 a:hover:after {
 	opacity: 1;
-	-webkit-transition: .3s;
 	transition: .3s;
 }
 
@@ -114,9 +112,6 @@
 }
 
 .content-dropdown {
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	flex-direction: column;
 	margin-left: 15px;
 	
@@ -163,7 +158,6 @@
 
 @media (max-width: 1199px) {
 	#menu ul {
-	-ms-flex-pack: distribute;
 	justify-content: space-around;
 	}
 }
@@ -176,11 +170,8 @@
 
 @media (max-width: 767px) {
 	.dropdowns {
-		-webkit-box-ordinal-group: 2;
-		-ms-flex-order: 1;
 		order: 1;
 		width: 100%;
-		-ms-flex-pack: distribute;
 		justify-content: space-around;
 		
 	}
@@ -238,7 +229,6 @@
 }
 
 .search-page-30 input:focus {
-    -webkit-box-shadow: none;
     box-shadow: none;
     border-color: rgba(0, 0, 0, .5);
 }

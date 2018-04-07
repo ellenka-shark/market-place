@@ -51,6 +51,7 @@ code {
     padding: 10px 8px;
     /*border: 1px solid #999;*/
     /*font-size: 1.25rem;*/
+
 }
 .dropdown > .dropdown-hover {
     background: /*#f8f8f8*/#fff;
@@ -70,3 +71,16 @@ code {
 .dropdown.reverse > .dropdown-hover {
     right: -1px;
 }
+
+/*.dropdown-hover span:before {
+    content: '(';
+}
+
+.dropdown-hover span:after {
+    content: ')';
+}*/
+
+
+/*.dropdown-hover {
+width: 288px;
+}*/

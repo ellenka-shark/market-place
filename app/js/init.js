@@ -16,9 +16,12 @@
         //});
 
         initTabs();
+        // initDropdowns
         initDropdowns();
         //initOwlCarousel();
         initDisplaySwitcher();
+        // initSlicknavMenu
+        initSlicknavMenu();
 
     });
 
@@ -66,6 +69,15 @@ function initDropdowns() {
         }
     });
 }
+
+
+function initSlicknavMenu() {
+    $('.menu nav').slicknav({
+    appendTo: '.container-logo .container .row',
+    label: ''
+    });
+}
+
 
 //function initOwlCarousel() {
 //    $('.owl-carousel').owlCarousel({

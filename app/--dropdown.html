@@ -6,33 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Foxtar | Market Place</title>
-    
-    <!-- normalize -->
+
+    <!--  NORMALIZE  -->
     <link href="css/normalize.css" rel="stylesheet">
 
-    <!-- grid -->
+    <!--  GRID  -->
     <link href="css/grid.css" rel="stylesheet">
 
-    <!-- components dropdown -->
-    <link href="css/components/dropdown.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="css/roboto.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
 
+    <!--  COMPONENTS dropdown  -->
+    <link href="css/components/dropdown.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>dropdowns</h1>
-    <p> использовать css .dropdown-hover { left: 0 } чтобы выровнять по левому краю</p>
-    <p> использовать css .dropdown-hover { right: 0 } чтобы выровнять по правому краю</p>
-   
-    <h2>Пример</h2>    
+    <h1>Dropdown</h1>
+    <p>"Выпадающий" вниз при наведении дочерний элемент.</p>
+
+    <h2>Применение</h2>
+    <p>Присвоить класс <code>.dropdown</code> родительскому элементу и <code>.dropdown-hover</code> непосредственного дочерниму.</p>
+    <p>Для позиционирования выпадающего элемента по правому краю, родителю нужно задать дополнительный класс <code>.reverse</code>.</p>
+
+    <h2>Примеры</h2>
+    
     <div class="dropdown">
-         content
+        normal dropdown
         <div class="dropdown-hover">
             <ul>
-                 <li>item1</li>
-                <li>item2</li>
-                <li>item3</li>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
             </ul>
         </div>
     </div>
+
+    <div class="dropdown reverse">
+        reverse dropdown
+        <div class="dropdown-hover">
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+        </div>
+    </div>
+    <div class="dropdown">
+              <div class="dropdown-body">
+                <span>Categories</span><i class="fas fa-angle-down"></i>
+              </div>
+              <div class="dropdown-hover">
+                <ul>
+                 <li><a href=""><i class="fas fa-angle-right"></i>WordPress</a><span>150</span></li>
+                  <li><a href=""><i class="fas fa-angle-right"></i>Joomla</a><span>100</span></li>
+                  <li><a href=""><i class="fas fa-angle-right"></i>PSD</a><span>50</span></li>
+                  <li><a href=""><i class="fas fa-angle-right"></i>Plugins</a><span>60</span></li>
+                  <li><a href=""><i class="fas fa-angle-right"></i>Components</a><span>40</span></li>
+                  </ul>
+                </div>
+            </div>
+
+            <!-- JQuery -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    
+    <script src="js/dropdown.js"></script>
+
 </body>
+
 </html>

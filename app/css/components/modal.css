@@ -138,3 +138,9 @@ p span:hover {
     font-weight: 400;
     font-size: 18px;
 }
+
+.modal-container .modal-form-span a:hover {
+    text-decoration: underline;
+    -webkit-transition: .3s;
+    transition: .3s;
+}

@@ -1,21 +1,21 @@
-li {
+.breadcrumb-item {
 	display: inline-block;
-	/*font-family: 'Roboto';*/
 	font-weight: 400;
 	font-size: 15px;	
-	
+	color: rgba(38, 50, 56, .5);
 }
 
-li .active {
+.breadcrumb-item + .breadcrumb-item:before {
+	content: '-';
+	color: #8bc34a;
+	padding: 0 8px;
+}
+
+.active {
 	color: rgba(38, 50, 56, 1);
 }
 
-li a {
-	color: rgba(38, 50, 56, .5);
-	text-decoration: none;
-}
-
-li a:hover {
+.breadcrumb-item:hover {
 	-webkit-transition: .3s;
 	transition: .3s;
 	color: rgba(38, 50, 56, 1);

@@ -1,11 +1,22 @@
 /*НЕглавная страница*/
 
-#menu a:hover,
-.dropdown .dropdown-mike a:hover {
-	text-decoration: underline;
+#menu a:hover:after {
+	opacity: 1;
 	-webkit-transition: .3s;
 	transition: .3s;
-} 
+}
+
+#menu a:after {
+	content: '';
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	border-bottom: 1px solid #fff;
+	opacity: 0;
+}
+
+
 
 .icon-header i:hover,
 .author-dropdown i:hover {
@@ -36,6 +47,12 @@
 .container-logo {
 	background: #fff;
 }
+
+.container-logo /*.container*/ {
+	/*height: 91px;*/
+	position: relative;
+}
+
 
 #logo {
 	margin-top: 27px;
@@ -135,6 +152,12 @@
 .dropdown-mike i {
 	color: #8bc34a;
 	margin-right: 9px;
+}
+
+.dropdown-mike li:hover {
+	color: #8bc34a;
+	-webkit-transition: .3s;
+	transition: .3s;
 }
 
 .padd {
@@ -249,6 +272,39 @@
 	font-size: 14px;
     font-weight: 500;
     color: #fff;
+}
+
+@media (max-width: 1199px) {
+	#menu ul {
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	}
+}
+
+@media (max-width: 991px) {
+	.container-logo .logo-text {
+		display: none;
+	}	
+}
+
+@media (max-width: 767px) {
+	.dropdowns {
+		-webkit-box-ordinal-group: 2;
+		-ms-flex-order: 1;
+		order: 1;
+		width: 100%;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+		
+	}
+
+	.container-dropdown {
+	width: auto;
+}
+
+.padd {
+    padding: .5rem .3rem;
+    }
 }
 
 /*header end*/
