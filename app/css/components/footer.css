@@ -89,6 +89,10 @@
 	line-height: 24px;
 }
 
+.footer-about .contact-phone {
+	margin-top: 27px;
+}
+
 .footer-about .contact-phone i {
 	-webkit-transform: scale(-1, 1);
 	transform: scale(-1, 1);
@@ -124,6 +128,9 @@
 	font-weight: 400;
 	font-size: 14px;
 	padding-left: 16px;
+	background: #2f3c43;
+	border: none;
+	color: #697378;
 }
 
 .footer-social button {
@@ -141,4 +148,47 @@
 	border-top: 1px solid #424d53;
 	padding-bottom: 32px;
 	padding-top: 27px;
+}
+
+@media (max-width: 1199px) {
+	.footer-help {
+	padding-left: 60px;
+	}
+
+	.footer-about .contact-adress span {
+	padding-left: 2px;
+	}	
+}
+
+@media (max-width: 991px) {
+	.footer-help {
+	padding-left: 100px;
+	}
+
+	.footer-social {
+		margin-top: 60px;
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.footer-join {
+	padding-left: 0;
+	margin-top: 60px;
+	}
+	.footer-help {
+	padding-left: 0;
+	margin-top: 60px;
+	}
+	.footer-social input {
+	width: 60%;
+	}
+
+	.footer-social button {
+	position: absolute;
+	top:0;
+	right: 40%;
+	bottom: 0;
+	height: 39px;
+	}
 }

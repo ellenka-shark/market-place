@@ -10,7 +10,6 @@ p span:hover {
     background: #eee;
 }
 
-
 .modal-container {
     height: 0;
     overflow: hidden;
@@ -89,7 +88,6 @@ p span:hover {
     background: $color-accent;
     color: $bg-base;
 }
-
 
 .modal-container h1 {
     font-weight: 700;

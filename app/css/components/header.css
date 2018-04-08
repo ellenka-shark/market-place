@@ -1,28 +1,4 @@
 /*НЕглавная страница*/
-
-#menu a:hover:after {
-	opacity: 1;
-	-webkit-transition: .3s;
-	transition: .3s;
-}
-
-#menu a:after {
-	content: '';
-	display: block;
-	left: 0;
-	width: 100%;
-	height: 3px;
-	border-bottom: 1px solid #fff;
-	opacity: 0;
-}
-
-
-
-.icon-header i:hover,
-.author-dropdown i:hover {
-	color: #0d0c0c;
-}
-
 /*foto stile start*/
 .avatar-34 {
 	height: 34px;
@@ -46,13 +22,8 @@
 /*header start*/
 .container-logo {
 	background: #fff;
-}
-
-.container-logo /*.container*/ {
-	/*height: 91px;*/
 	position: relative;
 }
-
 
 #logo {
 	margin-top: 27px;
@@ -75,6 +46,7 @@
 .container-logo .logo-text .need {
 	color: #e74c3c;
 }
+
 .container-logo .logo-text a:hover {
 	color: #e74c3c;
 	-webkit-transition: .3s;
@@ -92,6 +64,11 @@
 	color: #a0a0a0;
 	font-size: 14px;
 	padding: 10px;
+}
+
+.icon-header i:hover,
+.author-dropdown i:hover {
+	color: #0d0c0c;
 }
 
 .quantity {
@@ -274,6 +251,22 @@
     color: #fff;
 }
 
+#menu a:after {
+	content: '';
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	border-bottom: 1px solid #fff;
+	opacity: 0;
+}
+
+#menu a:hover:after {
+	opacity: 1;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+
 @media (max-width: 1199px) {
 	#menu ul {
 	-ms-flex-pack: distribute;
@@ -306,7 +299,6 @@
     padding: .5rem .3rem;
     }
 }
-
 /*header end*/
 
 /*section search start*/

@@ -6,7 +6,7 @@
 
 .slicknav_menu {
     display: none;
-   position: relative;
+   /*position: relative;*/
     /*position: absolute;
     top: 100%;
     right: 0;
@@ -30,14 +30,20 @@ nav .slicknav_nav {
   }
 
 @media (max-width: 991px) {
-  .slicknav_menu {
+.slicknav_menu {
     display: block;
   }
   
-  .container-menu {
+.container-menu {
     display: none !important;
   }
+
+.menu-page30 {
+  display: none;
+  }
 }
+
+
 
 .slicknav_btn {
   position: relative;

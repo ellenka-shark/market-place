@@ -16,9 +16,6 @@
 /*header start*/
 .container-logo {
 	background: #fff;
-}
-
-.container-logo {
 	position: relative;
 }
 
@@ -157,8 +154,8 @@
 }
 
 @media (max-width: 1199px) {
-	#menu ul {
-	justify-content: space-around;
+	.menu-page30 {
+	margin-right: 0;
 	}
 }
 
@@ -166,6 +163,7 @@
 	.container-logo .logo-text {
 		display: none;
 	}	
+
 }
 
 @media (max-width: 767px) {
@@ -248,5 +246,22 @@
 .search-page-30 button:hover,
 .search-page-30 button:active {
 	color: #000;
+}
+
+@media (max-width: 767px){
+.search-h1-page-30 {
+	font-size: 35px;
+	}
+
+.search-h2-page-30 {
+	margin-top: 36px;
+	margin-bottom: 54px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #b0bec5;
+	}
+.search-page-30 input {
+	width: 600px;	
+	}
 }
 /*search end*/
