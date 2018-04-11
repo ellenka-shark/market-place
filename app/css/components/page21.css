@@ -1,0 +1,16 @@
+.upload-bg-outher {
+	background: #f4f6f5 50% 100% no-repeat;
+    background-size: cover;
+	/*padding-top: 61px;
+	padding-bottom: 69px;*/
+}
+
+.upload-bg-outher nav {
+	padding-top: 48px;
+	padding-bottom: 39px;
+}
+
+.upload-bg-inner {
+	margin-top: 101px;
+	background: #fff;
+}

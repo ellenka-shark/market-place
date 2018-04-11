@@ -337,14 +337,15 @@
 /* PAGE: 29_404 */
 /* Go To Home Page - START */
 .btn-home-page {
-    font-family: 'Raleway';
+  /*  font-family: 'Raleway';*/
     font-weight: 700;
     font-size: 14px;
     letter-spacing: .1em;
-    line-height: 24px;
+    line-height: 15px;
     text-transform: uppercase;
-    border: 1px solid #fff;
-    padding: 14.5px 31px;
+    border: 2px solid #fff;
+    padding: 18px 30px;
+    border-radius: 4px;
 }
 /* GO to Home Page - END */
 

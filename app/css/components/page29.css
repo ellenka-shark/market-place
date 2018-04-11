@@ -1,0 +1,87 @@
+/*page 29 start*/
+.page29 {
+	background: #f4f6f5;
+	padding-top: 101px;
+	padding-bottom: 150px;
+	}
+
+.page29 nav {
+	margin-top: -58px;
+}
+
+.error-page {
+	background: #fff;
+	border: 1px solid #dcdcdc;
+	border-bottom: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 29px;
+	font-weight: 500;
+	font-size: 24px;
+	color: #444;
+}
+
+.page-404 {
+	border: 1px solid #dcdcdc;
+	background: #8bc34a;
+	height: 715px;
+	padding-top: 63px;
+}
+
+.title-404 {
+	font-weight: 700;
+	font-size: 300px;
+	color: #fffefe;
+	text-transform: uppercase;
+	line-height: 330px;
+}
+
+.sorry {
+	font-weight: 400;
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: .2em;
+	margin-top: 15px;
+	margin-bottom: 33px;
+
+}
+
+.text-404 {
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	line-height: 24px;
+}
+
+.page-404 .btn-home-page {
+	margin-top: 56px;
+}
+
+@media (max-width: 991px) {
+	.title-404 {
+		font-size: 250px;
+	}
+
+	.page-404 img {
+	width: 90%;
+	}
+}
+
+@media (max-width: 767px) {
+	.title-404 {
+		font-size: 200px;
+	}
+
+	.page-404 img {
+	width: 80%;
+	}
+
+	.sorry {
+	font-size: 25px;	
+	}
+
+	.text-404 {
+	font-size: 15px;
+	}
+}
+/*page 29 end*/

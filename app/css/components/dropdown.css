@@ -9,7 +9,7 @@
 .dropdown-hover {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 101%;
     left: 0;
 }
 .dropdown.reverse > .dropdown-hover {
@@ -34,9 +34,7 @@ ul {
     padding: 0;
     list-style: none;
 }
-li + li {
-   /* margin-top: .5rem;*/
-}
+
 code {
     display: inline-block;
     background: #ddd;
@@ -55,12 +53,11 @@ code {
 
 }
 .dropdown > .dropdown-hover {
-    background: /*#f8f8f8*/#fff;
-    border: 1px solid #999;
+    background: #fff;
+    border: 1px solid #d3d3d3;
     border-top: 0;
 }
-
-    
+  
 /**
  *  Из-за использования границы у .dropdown
  *  нужно уменьшить горизонтальную позицию
@@ -69,6 +66,7 @@ code {
 .dropdown-hover {
     left: -1px;
 }
+
 .dropdown.reverse > .dropdown-hover {
     right: -1px;
 }
@@ -79,16 +77,17 @@ code {
    line-height: 18px;
    color: #263238;
    padding: 20px 32px;
-   border: 1px solid #dfdfdf;
+   border: 1px solid #d3d3d3;
    z-index: 20;
 }
 
 .categories span {
-    margin-right: 21px;
+    color: #90a4ae;
 }
 
 .categories i {
     font-size: 18px;
+    margin-left: 21px;
 }
 
 .categories .dropdown-hover span:before {
@@ -101,7 +100,7 @@ code {
 
 .categories .dropdown-hover {
     width: 288px;
-    padding: 25px 68px 25px 35px;
+    padding: 25px 44px 25px 35px;
     font-weight: 400;
     font-size: 15px;
     color: #263238;
@@ -115,4 +114,10 @@ code {
     color: #8bc34a;
     font-size: 14px;
     margin-right: 13px;
+}
+
+.categories .dropdown-hover li:hover {
+    color: #8bc34a;
+    -webkit-transition: .3s;
+    transition: .3s;
 }

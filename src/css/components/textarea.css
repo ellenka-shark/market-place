@@ -1,0 +1,16 @@
+textarea {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #7a7a7a;
+  background: #f1f4f5;
+  padding: 16px 18px 16px 18px;
+  min-height: 193px;
+  min-width: 726px;
+  resize: none;
+  border: none;
+}
+textarea:focus,
+textarea:active {
+  outline: none;
+  color: #333333;
+}

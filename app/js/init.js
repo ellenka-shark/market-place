@@ -22,6 +22,7 @@
         initDisplaySwitcher();
         // initSlicknavMenu
         initSlicknavMenu();
+        initStylerSelect();
 
     });
 
@@ -78,6 +79,9 @@ function initSlicknavMenu() {
     });
 }
 
+function initStylerSelect(){
+        $('select').styler();
+}
 
 //function initOwlCarousel() {
 //    $('.owl-carousel').owlCarousel({
