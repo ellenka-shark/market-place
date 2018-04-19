@@ -28,12 +28,11 @@
     <!-- COMPONENTS button -->
     <link href="css/components/buttons.css" rel="stylesheet">
 
-    <!-- COMPONENTS  slicknavmenu-->
+    <!-- COMPONENTS header -->
+    <link href="css/components/header1.css" rel="stylesheet">
     <link href="css/components/slicknav.css" rel="stylesheet">
 
-    <!-- COMPONENTS page 30 -->
-    <link href="css/components/page30.css" rel="stylesheet">
-
+    
     <!-- COMPONENTS modal -->
     <link href="css/components/modal.css" rel="stylesheet">
      
@@ -44,30 +43,15 @@
     <header id="header">
       <div class="container-logo">
         <div class="container">
-          <div class="row justify-content-sm-between">
-            <div><img src="img/logo.png" id='logo' alt="FOXTAR MARKET PLACE"></div> 
-            <!--MENU-->
-            <div class="menu menu-page30">
-              <nav id="menu">
-                <ul class="d-flex">
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Pages</a></li>
-                  <li><a href="">WordPress</a></li>
-                  <li><a href="">Joomla</a></li>
-                  <li><a href="">PSD</a></li>
-                  <li><a href="">Blog</a></li>
-                  <li><a href="">Contact</a></li>
-                  <li><a href="">Help</a></li>
-                </ul>
-              </nav>
+          <div class="row">
+            <div class="mr-auto"><img src="img/logo.png" id='logo' alt="FOXTAR MARKET PLACE"></div> 
+            <div class="logo-text"><span class="need">Need help? </span><span>Talk to an expert: </span><a href="tel:+61383766284">+61 3 8376 6284</a>
             </div>
-            <div>
-              <a href="#" class="btn-green btn-login btn-default modal-login-open" title="Вход">Login</a>
-            </div>
-            <!--  dropdown start -->
+
+            <!-- dropdown start -->
             <div class="dropdown reverse">
               <div class="dropdown-body">
-                <span class="icon-header avatar-34"><i class="fas fa-shopping-cart"></i><span class="quantity green">8</span></span>
+              <span class="icon-header avatar-34"><i class="fas fa-shopping-cart"></i><span class="quantity red">8</span></span>
               </div>
               <div class="dropdown-hover container-dropdown">
                 <ul>
@@ -99,12 +83,17 @@
                     <div class="d-flex">
                       <a href="#" class="btn-green btn-go-to-cart btn-default" title="Перейти в корзину">Go&nbspto&nbspCart</a>
                       <a href="#" class="btn-red btn-go-to-checkout btn-default" title="Перейти к оформлению заказа">Go&nbspto&nbspCheckout</a>
-                    </div>
+                      </div>
                   </li>
                 </ul>
               </div>
             </div>
             <!-- dropdown end -->
+            <!-- кнопки  start-->
+            <div><a href="#" class="btn-green btn-login btn-default modal-login-open" title="Вход">Login</a></div>
+            <div><a href="#" class="btn-red btn-register btn-default" title="Регистрация">Register</a></div>
+            <!-- кнопки  end-->
+            <!-- modal start -->
             <div class="modal-container text-center">
               <div id="modal-form-login" class="modal-form">
                 <form>
@@ -113,8 +102,7 @@
                     <input type="text" placeholder="Name"><i class="fas fa-user"></i> 
                   </div>
                   <div class="position-relative">
-                    <input type="text" placeholder="Password">
-                      <i class="fas fa-lock"></i>
+                    <input type="text" placeholder="Password"><i class="fas fa-lock"></i>
                   </div>
                   <div class="d-flex justify-content-between">
                     <button type="submit" class="btn-white btn-login-submit btn-default" title="Отправить данные">Submit</button>
@@ -124,19 +112,41 @@
                 </form>
               </div>
             </div>
+            <!-- modal end -->
           </div>
         </div>
       </div>
+
+      <!--MENU start-->
+      <div class="menu container-menu">
+        <div class="container">
+          <nav id="menu">
+              <ul class="row">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">WordPress</a></li>
+              <li><a href="">Joomla</a></li>
+              <li><a href="">PSD</a></li>
+              <li><a href="">Plugins</a></li>
+              <li><a href="">Components</a></li>
+              <li><a href="">Pages</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Help</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- MENU end- -->
     </header>
-    <!--HEADER end page 30 -->
+    <!--HEADER end главная страница-->
     <main>
-      <!-- section search page 30 start-->
-      <section class="search-page-30 d-flex flex-column">
+    <!-- section search start-->
+      <section class="search d-flex flex-column">
         <div class="mx-auto">
-          <h1 class="search-h1-page-30">Creat A <span>Digital Market</span> Place</h1>
+          <h1>Welcome To Foxtar Market Place!</h1>
         </div>
         <div class="mx-auto">
-          <h2 class="search-h2-page-30">Foxtar is a simple and powerful Digital Downloads Products</h2>
+          <h2>Premium WordPress Themes, Web Templates and Many More ...</h2>
         </div>
         <div class="mx-auto">
           <form>
@@ -145,15 +155,14 @@
           </form>
         </div>
       </section>
-      <!-- section search page 30 end-->
+      <!-- section search end-->
     </main>
     <!-- JQuery -->
-    <!--  <script src="js/jquery-2.2.4.min.js"></script> -->
+    <!-- <script src="js/jquery-2.2.4.min.js"></script> -->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <!-- Init -->
     <script src="js/init.js"></script>
-
     <!--  Modal  -->
     <script src="js/modal.js"></script>
   </body>

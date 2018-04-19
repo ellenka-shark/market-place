@@ -19,6 +19,7 @@
         // initDropdowns
         initDropdowns();
         //initOwlCarousel();
+        // initOwlCarousel();
         initDisplaySwitcher();
         // initSlicknavMenu
         initSlicknavMenu();
@@ -83,7 +84,7 @@ function initStylerSelect(){
         $('select').styler();
 }
 
-//function initOwlCarousel() {
+// function initOwlCarousel() {
 //    $('.owl-carousel').owlCarousel({
 //        loop: true,
 //        margin: 10,
@@ -115,11 +116,12 @@ function initStylerSelect(){
 //                items: 4,
 //                nav: false,
 //                dots: true,
+//                // loop: true,
 //                margin: 30
 //            }
 //        }
 //    });
-//}
+// }
 
 function initDisplaySwitcher() {
     // Найти переключатели

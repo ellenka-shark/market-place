@@ -197,7 +197,7 @@
 	width: auto;
 }
 
-.padd {
+	.padd {
     padding: .5rem .3rem;
     }
 }
@@ -262,5 +262,11 @@
 .search button:hover,
 .search button:active {
 	color: #000;
+}
+
+@media (max-width: 767px) {
+	.search h1 {
+	font-size: 40px;
+	}
 }
 /*search end*/
