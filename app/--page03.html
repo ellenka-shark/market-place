@@ -34,6 +34,9 @@
     <!-- COMPONENTS tegi -->
     <link href="css/components/tegi.css" rel="stylesheet">
 
+    <!-- COMPONENTS title -->
+    <link href="css/components/title.css" rel="stylesheet">
+
     <!-- COMPONENTS product -->
     <link href="css/components/product.css" rel="stylesheet">
 
@@ -58,22 +61,23 @@
     </header>
 
     <main>
-      <section class="release-products d-flex flex-column ">
-        <h1 class="mx-auto">Let’s Check Out Our Newest Release Products</h1>
+      <!-- release-products start -->
+      <section class="release-products d-flex flex-column section-padd-top section-padd-bottom">
+        <h2 class="mx-auto title">Let’s Check Out Our Newest Release Products</h2>
               <!-- tegi start-->
         <div class="taxonomy-links mx-auto">
           <ul>
-            <li class="link active"><a href="#sales_taxonomy" class="block">ALL</a></li>
-            <li class="link"><a href="#Wordpress_taxonomy" class="button">Woordpres</a></li>
+            <li class="link active"><a href="#sales_taxonomy" class="block">All</a></li>
+            <li class="link"><a href="#Wordpress_taxonomy" class="button">WordPress</a></li>
             <li class="link"><a href="#joomla_taxonomy" class="button">Joomla</a></li>
             <li class="link"><a href="#plugin_taxonomy" class="button">Plugins</a></li>
-            <li class="link"><a href="#componant_taxonomy" class="button">Componant</a></li>
+            <li class="link"><a href="#componant_taxonomy" class="button">Component</a></li>
             <li class="link"><a href="#psd_taxonomy" class="button">PSD</a></li>
           </ul>
         </div>
         <!-- tegi end-->
 
-        <div class="d-flex justify-content-between flex-wrap">
+        <div class="d-flex flex-wrap justify-content-between">
             
           <div class="product">
             <div class="product-img">
@@ -307,11 +311,16 @@
             </div>
           </div>
         </div>
-        <a href="#" class="btn-items btn-default" title="Все новые товары">All New Items</a>
-        <a href="#" class="btn-items btn-default" title="Популярные товары">Popular Items</a>
+        <div class="mx-auto">
+          <a href="#" class="btn-items btn-default" title="Все новые товары">All New Items</a>
+          <a href="#" class="btn-items btn-default" title="Популярные товары">Popular Items</a>
+        </div>
       </section>
+      <!-- release-products end -->
 
-      <section class="trending-products">
+      <!-- trending-products start -->
+      <section class="trending-products section-padd-top section-padd-bottom">
+        <h2 class="text-center title">This Week Trending Products</h2>
         <div class="container-fluid">
           <div class="owl-carousel">
             <div class="product new">
@@ -687,6 +696,89 @@
               </div>
             </div>
           </section>
+          <!-- trending-products end -->
+
+          <!-- choose start -->
+          <section class="choose section-padd-top section-padd-bottom">
+            <h2 class="text-center title ">Why You Choose Foxtar Market Place?</h2>
+            <div class="container">
+              <div class="row">
+
+                <div class="col-xl-4 col-lg-4 d-flex flex-column text-center">
+                  <div class="avatar-113 mx-auto">
+                    <img src="" class="img-responsive" alt="">
+                  </div> 
+                  <span class="choose-a"><a href="">Easily Buy & Sell</a></span>
+                  <p class="choose-p">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.</p> 
+                </div>
+
+                <div class="col-xl-4 col-lg-4 d-flex flex-column text-center">
+                  <div class="avatar-113 mx-auto">
+                    <img src="" class="img-responsive" alt="">
+                  </div> 
+                  <span class="choose-a"><a href="">Quality Products</a></span>
+                  <p class="choose-p">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.</p>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 d-flex flex-column text-center">
+                  <div class="avatar-113 mx-auto">
+                    <img src="" class="img-responsive" alt="">
+                  </div> 
+                  <span class="choose-a"><a href="">100% Secure Payment</a></span>
+                  <p class="choose-p">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the industry's standaum.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- choose end -->
+
+          <!-- become-author start -->
+          <section class="banner section-padd-top section-padd-bottom">
+            <div class="container">
+              <div class="over-grey d-flex">
+                <div class="over-green d-flex justify-content-space-between">
+                 <!--  <div class="d-flex justify-content-around"> -->
+                    <div class="d-flex flex-column over-author">
+                      <span>Over<span class="title"> 20,000</span> Author</span>
+                      <span>Are&nbspInvolved&nbspHere!</span>
+                    </div>
+                    <a href="#" class="btn-become-author btn-default" title="Стать автором">Become&nbspA&nbspAuthor</a>
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="tutorials section-padd-top section-padd-bottom">
+            <h2 class="title text-center">Free Monthly Tutorials To Help You With Your Project</h2>
+            <div class="container">
+              <div class="row">
+
+                <div class="col-xl-4">
+                  <div class="avatar-370-270">
+                    <img src="" class="img-responsive" alt="">
+                  </div>
+                  <div class="avatar-370-100 title text-center">Web Design Tutorials</div>
+                </div>
+
+                <div class="col-xl-4">
+                  <div class="avatar-370-270">
+                    <img src="" class="img-responsive" alt="">
+                  </div>
+                  <div class="avatar-370-100 title text-center">WordPress Tutorials</div>
+                </div>
+
+                 <div class="col-xl-4">
+                  <div class="avatar-370-270">
+                    <img src="" class="img-responsive" alt="">
+                  </div>
+                  <div class="avatar-370-100 title text-center">HTML & CSS Tutorials</div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
         </main>
         <footer></footer>
         <!-- JQuery -->
