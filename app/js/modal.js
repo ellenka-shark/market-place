@@ -3,11 +3,10 @@
 function initModals() {
   $('.modal-container form')
     .prepend('<span class="close"><i class="fas fa-times"></i></span>');
-
+  
   $('.modal-login-open').click(function () {
     modalOpen('#modal-form-login');
   });
-
 }
 
 function modalOpen(target) {
@@ -36,9 +35,8 @@ function modalClose(target, offset = false) {
   }
 }
 
-$(function() {
-    initModals();
-})
-
+$(function(){
+  initModals();
+});
 
 })(jQuery);

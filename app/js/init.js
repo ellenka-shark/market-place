@@ -16,12 +16,9 @@
         //});
 
         initTabs();
-        // initDropdowns
         initDropdowns();
         initOwlCarousel();
-        // initOwlCarousel();
         initDisplaySwitcher();
-        // initSlicknavMenu
         initSlicknavMenu();
         initStylerSelect();
 

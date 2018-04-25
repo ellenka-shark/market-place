@@ -98,12 +98,14 @@
 .over-green {
 	background: #8bc34a;
 	padding: 75px 60px;
+	margin: auto;
+	
 }
 
 .over-author {
 	font-weight: 400;
 	font-size: 30px;
-	line-height: 36px;
+	line-height: 32px;
 	color: #fff;
 }
 
