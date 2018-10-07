@@ -28,7 +28,7 @@
     <link href="css/components/buttons.css" rel="stylesheet">
     
     <!-- COMPONENTS header -->
-    <link href="css/components/header.css" rel="stylesheet">
+    <link href="css/components/header1.css" rel="stylesheet">
     <link href="css/components/slicknav.css" rel="stylesheet">
 
     <!-- COMPONENTS tegi -->
@@ -57,7 +57,105 @@
   </head>
   <body>
     <header>
-            
+      <!--HEADER START главная страница-->
+    <header id="header">
+      <div class="container-logo">
+        <div class="container">
+          <div class="row">
+            <div class="mr-auto"><img src="img/logo.png" id='logo' alt="FOXTAR MARKET PLACE"></div> 
+            <div class="logo-text"><span class="need">Need help? </span><span>Talk to an expert: </span><a href="tel:+61383766284">+61 3 8376 6284</a>
+            </div>
+
+            <!-- dropdown start -->
+            <div class="dropdown reverse">
+              <div class="dropdown-body">
+              <span class="icon-header avatar-34"><i class="fas fa-shopping-cart"></i><span class="quantity red">8</span></span>
+              </div>
+              <div class="dropdown-hover container-dropdown">
+                <ul>
+                  <li class="padd">
+                    <a class="d-flex" href="">
+                      <img src="" class="img-responsive avatar-73-57" alt="">
+                      <span class="d-flex content-dropdown">
+                        <span class="content-dropdown-3-name">Grand&nbspBallet</span>
+                        <span class="content-dropdown-3-word-press">WordPress</span>
+                        <span class="content-dropdown-3-price">$59</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="padd">
+                    <a class="d-flex" href="">
+                      <img src="" class="img-responsive avatar-73-57" alt="">
+                      <span class="d-flex content-dropdown">
+                        <span class="content-dropdown-3-name">Apple&nbspDevice</span>
+                        <span class="content-dropdown-3-word-press">WordPress</span>
+                        <span class="content-dropdown-3-price">$59</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="padd padd-16px">
+                    <div class="d-flex total">
+                      <span>Total</span>
+                      <span class="ml-auto ">$118</span>
+                    </div>
+                    <div class="d-flex">
+                      <a href="#" class="btn-green btn-go-to-cart btn-default" title="Перейти в корзину">Go&nbspto&nbspCart</a>
+                      <a href="#" class="btn-red btn-go-to-checkout btn-default" title="Перейти к оформлению заказа">Go&nbspto&nbspCheckout</a>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- dropdown end -->
+            <div><a href="#" class="btn-green btn-login btn-default" title="Вход">Login</a></div>
+            <div><a href="#" class="btn-red btn-register btn-default" title="Регистрация">Register</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!--MENU start-->
+      <div class="menu container-menu">
+        <div class="container">
+          <nav id="menu">
+              <ul class="row">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">WordPress</a></li>
+              <li><a href="">Joomla</a></li>
+              <li><a href="">PSD</a></li>
+              <li><a href="">Plugins</a></li>
+              <li><a href="">Components</a></li>
+              <li><a href="">Pages</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Help</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+       <!--MENU end-->
+    </header>
+    <!--HEADER end главная страница-->
+    <main>
+    <!-- section search start-->
+      <section class="search d-flex flex-column">
+        <div class="mx-auto">
+          <h1>Welcome To Foxtar Market Place!</h1>
+        </div>
+        <div class="mx-auto">
+          <h2>Premium WordPress Themes, Web Templates and Many More ...</h2>
+        </div>
+        <div class="mx-auto">
+          <form>
+            <input type="text" name="user_name" placeholder="Search Your Keywords . . ." class="form-control">
+            <button type="submit" class="btn-e-mail-adress"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </section>
+      <!-- section search end-->
+           
+
+
+
     </header>
 
     <main>
@@ -781,10 +879,72 @@
           </section>
 
         </main>
-        <footer></footer>
+        <!--FOOTER START-->
+        <footer id="footer">
+          <div class="bg-footer">
+            <div class="container">
+              <div class="footer-menu row justify-content-between">
+                
+                <div class="footer-about col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                  <h2 class="footer-title">About&nbspCompany</h2>
+                  <p>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
+                  <div class="contact-adress">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://goo.gl/maps/9gNUBW3ogvE2" class="contact-data-link">PO Box 16122 Collins Street West<span> Victoria 8007 Australia</span></a>
+                  </div>
+                  <div class="contact-phone">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+61383766284" class="contact-data-link">+61 3 8376 6284</a>
+                  </div>
+                </div>
+
+                <div class="footer-join col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                  <h2 class="footer-title">Join&nbspOur&nbspCommunity</h2>
+                  <ul>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Home</a></li>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Forums</a></li>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Become&nbspan&nbspAuthor</a></li>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Community&nbspMeetups</a></li>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Wishlist</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-help col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                  <h2 class="footer-title">Need&nbspHelp?</h2>
+                  <ul>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Help&nbspCenter</a></li>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Foxtar&nbspMarket&nbspTerms</a></li>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Author&nbspTerms</a></li>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Foxtar&nbspLicenses</a></li>
+                    <li><a href=""><i class="fas fa-angle-right"></i>Contact&nbspUs</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-social col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                  <h2 class="footer-title">Follow&nbspUs&nbspOn</h2>
+                  <div class="footer-icon"> 
+                    <a href=""><i class="icon icon-facebook"></i></a>
+                    <a href=""><i class="icon icon-twitter"></i></a>
+                    <a href=""><i class="icon icon-youtube"></i></a>
+                    <a href=""><i class="icon icon-pinterest"></i></a>
+                    <a href=""><i class="icon icon-in"></i></a>
+                  </div>
+                  <p>Newsletter&nbspSign&nbspUp!</p>
+                  <form>
+                    <input type="text" name="user_name" placeholder="E-mail Address" class="form-control">
+                    <button type="submit" class="btn-green btn-e-mail-adress btn-default" title="Стать автором"><i class="fas fa-location-arrow"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="copiright text-center">&copy; 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+            </div>
+          </div>
+        </footer>
         <!-- JQuery -->
-        <script src="js/jquery-3.3.1.slim.min.js"></script>
-        <!--   <script src="js/jquery-2.2.4.min.js"></script> -->
+       <!--  <script src="js/jquery-3.3.1.slim.min.js"></script> -->
+          <script src="js/jquery-2.2.4.min.js"></script>
         <script src="js/jquery.slicknav.js"></script>
          <!-- Owl Carousel 2 -->
         <script src="js/owl.carousel.min.js"></script>
