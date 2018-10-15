@@ -81,6 +81,13 @@
 	padding-left: 22px;
 	padding-right: 31px;
 }
+
+@media (max-width: 991px) {
+	.choose-p {
+	margin-bottom: 60px;
+	}
+}
+
 /*choose end*/
 
 /*banner start*/
@@ -113,6 +120,21 @@
 	.over-grey {
 	padding: 90px 200px;
 	}
+	.over-author {
+	font-size: 20px;
+	}	
+}
+
+@media (max-width: 991px) {
+	.over-grey {
+	padding: 80px 130px;
+	}
+	.over-green {
+	padding: 65px 40px;
+	}
+	.over-author {
+	font-size: 15px;
+	}	
 }
 
 /*banner end*/
@@ -139,5 +161,14 @@
 	background: #f8f8f8;
 	line-height: 100px;
 	font-size: 24px;
+}
+
+@media (max-width: 1199px) {
+	.avatar-370-270 {
+	width: 300px;
+	}
+	.avatar-370-100 {
+	width: 300px;
+	}
 }
 /*tutorials end*/
