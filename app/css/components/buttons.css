@@ -88,6 +88,12 @@
     padding-left: 14px;
     padding-right: 14px;
 }
+
+@media (max-width: 1199px) {
+    .btn-register {
+    margin-right: 20px;
+    }
+}
 /* Login + Register - END */
 
 /* btn-items - START */

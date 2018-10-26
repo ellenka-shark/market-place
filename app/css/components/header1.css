@@ -180,6 +180,10 @@
 }
 
 @media (max-width: 1199px) {
+	#logo {
+	margin-left: 20px;
+	}
+
 	#menu ul {
 	-ms-flex-pack: distribute;
 	justify-content: space-around;
@@ -273,6 +277,12 @@
 .search button:hover,
 .search button:active {
 	color: #000;
+}
+
+@media (max-width: 991px) {
+.search h1 {
+	font-size: 40px;
+	}
 }
 
 @media (max-width: 767px) {
